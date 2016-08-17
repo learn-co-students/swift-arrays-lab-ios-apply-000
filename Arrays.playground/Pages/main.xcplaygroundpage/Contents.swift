@@ -32,7 +32,7 @@ futureShoppingList = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 /*: question4
  ### 4. Write an array called 'cheeseSandwich' **with** a type specified whose values will never change and contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
-let cheeseSandwich = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
+let cheeseSandwich: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 /*: question5
  ### 5. Create a second array called 'dessertList' with a type specified using and contains the string values "Cookie dough", "Icecream"
