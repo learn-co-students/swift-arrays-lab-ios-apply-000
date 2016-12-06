@@ -13,7 +13,7 @@
  */
 // write your code here
 
-
+var list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -23,7 +23,7 @@
  */
 // write your code here
 
-
+var shoppingList: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -32,8 +32,9 @@
  */
 // write your code here
 
+var futureShoppingList: [String]
 
-
+futureShoppingList = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -42,6 +43,7 @@
  */
 // write your code here
 
+let cheeseSandwich: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -52,7 +54,7 @@
  */
 // write your code here
 
-
+var dessertList: [String] = ["Cookie dough", "Icecream"]
 
 
 
@@ -63,9 +65,7 @@
  */
 // write your code here
 
-
-
-
+var afternoonAttendance = [2, 10, 3, 15, 7]
 
 
 
@@ -75,6 +75,9 @@
  */
 // write your code here
 
+let secondItem = shoppingList[1]
+let butter = "itemToPrint"
+print("Butter")
 
 
 
@@ -88,7 +91,8 @@
 // write your code here
 
 
-
+futureShoppingList[2] = "Chicken"
+print(futureShoppingList)
 
 
 
@@ -102,14 +106,10 @@
 
 
 
-
-
 /*: question10
  ### 10. Pass the 'shoppingList' array to the 'lifesEssential' function and print the result.
  */
 // write your code here
-
-
 
 
 
