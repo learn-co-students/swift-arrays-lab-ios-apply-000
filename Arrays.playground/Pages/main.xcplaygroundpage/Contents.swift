@@ -11,8 +11,8 @@
 /*: question1
  ### 1. Write an array called 'list' **without** a type specified that contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
-// write your code here
 
+var list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -24,16 +24,16 @@
 // write your code here
 
 
-
+var shoppingList: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 /*: question3
  ### 3. Initialize an array called 'futureShoppingList' **with** a type specified and then add the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
-// write your code here
 
 
 
+var futureShoppingList: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -42,6 +42,9 @@
  */
 // write your code here
 
+
+
+let cheeseSandwich: [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -54,7 +57,7 @@
 
 
 
-
+var dessertList: [String] = ["Cookie dough", "Icecream"]
 
 
 
@@ -66,16 +69,16 @@
 
 
 
-
+var afternoonAttendance :[Int] = [2, 10, 3, 15, 7]
 
 
 
 /*: question7
  ### 7. Assign the value at the second position in the 'shoppingList' array to a variable called 'itemToPrint' and print it to the screen.
  */
-// write your code here
 
-
+shoppingList[2] = "itemToPrint"
+print(shoppingList)
 
 
 
@@ -88,7 +91,8 @@
 // write your code here
 
 
-
+futureShoppingList[2] = "Chicken"
+print(futureShoppingList)
 
 
 
@@ -97,8 +101,17 @@
 /*: question9
  ### 9. Create a function named 'lifesEssential' that accepts a string of arrays as a parameter called 'ingredients' and returns a boolean. Inside the function check to see if the array passed to the function contains the value "Bread" at position 0. If it does, return a true value boolean, if not false.
  */
-// write your code here
 
+
+func lifeEssential(ingrediants: [String]) -> Bool {
+    
+    if ingrediants[0] == "Bread" {
+        return true
+    } else {
+        return false
+    }
+    
+}
 
 
 
@@ -110,7 +123,8 @@
 // write your code here
 
 
-
+lifeEssential(ingrediants: shoppingList)
+print(lifeEssential(ingrediants: shoppingList))
 
 
 
@@ -119,8 +133,8 @@
 /*: question11
  ### 11. Pass the 'desertList' array to the 'lifesEssential' function and print the result.
  */
-// write your code here
 
+print(lifeEssential(ingrediants: dessertList))
 
 
 
