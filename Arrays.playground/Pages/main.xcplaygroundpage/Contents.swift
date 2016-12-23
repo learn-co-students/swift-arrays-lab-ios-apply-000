@@ -12,9 +12,7 @@
  ### 1. Write an array called 'list' **without** a type specified that contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
 // write your code here
-
-
-
+var list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -23,28 +21,22 @@
  */
 // write your code here
 
-
-
-
+var shoppingList : [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 /*: question3
  ### 3. Initialize an array called 'futureShoppingList' **with** a type specified and then add the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
 // write your code here
+var futureShoppingList: [String]
 
-
-
-
-
+futureShoppingList = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 /*: question4
  ### 4. Write an array called 'cheeseSandwich' **with** a type specified whose values will never change and contains the string values "Bread", "Butter", "Cheese", "Lettuce", "Tomatoes".
  */
 // write your code here
 
-
-
-
+let cheeseSandwich : [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 /*: question5
@@ -52,22 +44,14 @@
  */
 // write your code here
 
-
-
-
-
-
+let dessertList: [String] = ["Cookie", "Icecream"]
 
 /*: question6
  ### 6. Write an array called 'afternoonAttendance' **with** a type specified that contains the integer values 2, 10, 3, 15, 7.
  */
 // write your code here
 
-
-
-
-
-
+let afternoonAttendance: [Int] = [2,10,3,15,7]
 
 
 /*: question7
@@ -75,10 +59,8 @@
  */
 // write your code here
 
-
-
-
-
+var secondPosition = shoppingList [2]
+print(secondPosition)
 
 
 
@@ -88,10 +70,8 @@
 // write your code here
 
 
-
-
-
-
+shoppingList [2] = "Chicken"
+print(shoppingList)
 
 
 /*: question9
@@ -99,28 +79,23 @@
  */
 // write your code here
 
-
-
-
-
-
+    func lifesEssential (ingredients: String) -> Bool {
+        if ingredients ("bread"){
+    return (true)}
+        else {(false)
+        }}
 /*: question10
  ### 10. Pass the 'shoppingList' array to the 'lifesEssential' function and print the result.
  */
 // write your code here
-
-
-
-
-
-
-
+func shoppingList(shoppingList:Array<Any>){
+    print("shoppingList")}
 
 /*: question11
  ### 11. Pass the 'desertList' array to the 'lifesEssential' function and print the result.
  */
 // write your code here
 
-
-
-
+func lifeEssential(desertList:Array<Any>){
+    print("desertList")
+}
